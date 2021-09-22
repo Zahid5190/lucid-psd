@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    
+    font-size: 20px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: #fffefe;
+    position: relative;
+    padding: 0;
+    margin: 0 15px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(151, 148, 148);
+}
+
+.navbar-brand{
+
+display: flex;
+}
+
+.navbar-brand h1{
+
+font-size: 40px;
+
+font-family: Quicksand;
+
+color: #fff;
+
+/* margin-left: 2px; */
+
+margin-left: -20px;
+}
+
+.navbar-brand p{
+    
+font-size: 13px;
+    
+font-family: Source Sans Pro;
+    
+color: #666567;
+    
+margin-left: 5px;
+    
+margin-top: 8px;
+}
+
+header{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+    
+    width: 40%;
+    color: #008ed6;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+    
+    width: 40%;
+    color: #008ed6;
+    
+}
+
+header h4{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-family: Source Sans Pro;
+
+font-weight: bold;
+
+font-size: 25px;
+
+margin-bottom: 25px;
+
+margin-top: 25px;
+}
+
+header h1{
+
+font-size: 48px;
+
+color: #fff;
+
+font-family: Source Sans Pro;
+
+margin-bottom: 15px;
+}
+
+header p{
+
+color: #868686;
+
+font-size: 20px;
+
+font-family: Source Sans Pro;
+
+
+
+/* text-align: justify; */
+}
+
+header .btn-custom{
+
+color: #fff;
+
+border-radius: 2px;
+
+border: 1px solid #008ed6;
+
+padding: 10px 15px;
+
+background: #008ed6;
+
+font-family: Source Sans Pro;
+
+font-size: 20px;
+
+margin-top: 20px;
+transition: 0.4s all ease in out;
+}
+
+header .btn-custom:hover{
+  background-color: #41c0ff;
+  color: black;
+  
+}
+
+header .btn-action{
+
+color: #fff;
+
+border-radius: 2px;
+
+border: 1px solid #929197;
+
+padding: 10px 15px;
+
+font-family: Source Sans Pro;
+
+font-size: 20px;
+
+margin-left: 20px;
+
+margin-top: 20px;
+transition: 0.4s all ease-in-out;
+}
+
+header .btn-action:hover{
+    background-color: #008ed6;
+    color:black;
+}
+
+header .img-fluid{
+   position: absolute;
+   bottom: 0;
+   left: 55%;
+}
+.banner{
+    text-align: center;
+    min-height: 40vh;
+}
+
+.banner-content{
+
+}
+
+.banner-content .font h2{
+
+color: #fff;
+}
+
+
+.banner-content h5{
+
+font-size: 22px;
+
+color: #008ed6;
+
+font-family: Source Sans Pro;
+
+text-transform: uppercase;
+}
+
+.banner-content h2{
+  position: relative;
+  font-size: 36px;
+  color: #1a1a1a;
+  font-family: Source Sans Pro;
+}
+
+.banner-content h2::before{
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -30px;
+    height: 2px;
+    width: 0;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.banner-content h2:hover:before{
+    width: 50px;
+    color:#008ed6
+     
+}
+
+.banner-content h2::after{
+    content: "";
+    position: absolute;
+    right: 45% ;
+    bottom: -30px ;
+    height: 2px;
+    width: 0;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.banner-content h2:hover::after{
+    width: 50px;
+    color:#008ed6
+}
+
+.features{
+    
+}
+
+
+.features_1{
+    padding: 25px 0px;
+    margin-bottom: 50px;
+    
+}
+.features_1 .icon{
+    
+/* width: 50px; */
+    
+width: 120px;
+    
+height: 120px;
+    
+background: #fff;
+    
+border-radius: 50%;
+    
+/* text-align: center; */
+    
+transform: translateX(95px);
+    
+font-size: 60px;
+    
+border: 2px solid #949493;
+    
+padding-top: 10px;
+    
+color: #008ed6;
+    
+margin-bottom: 20px;
+}
+
+.features_1 h3{
+
+font-size: 30px;
+
+color: #1a1a1a;
+
+font-weight: 400;
+
+font-family: Source Sans Pro;
+
+margin-bottom: 15px;
+}
+
+.features_1 h5{
+
+font-size: 20px;
+
+font-family: Source Sans Pro;
+
+font-weight: 400;
+
+color: #999999;
+}
+
+.details{
+  background-color: #f2f2f2;
+  min-height: 60vh;
+  
+}
+
+.content-details{
+   
+}
+
+.pcontent{
+    
+transform: translateY(60px);
+}
+
+
+
+.content-details h5{
+
+font-size: 18px;
+
+text-transform: uppercase;
+
+font-family: Source Sans Pro;
+
+color: #008ed6;
+}
+
+.content-details h2{
+  position: relative;
+  font-size: 36px;
+  font-family: Source Sans Pro;
+  margin-bottom: 20px;
+}
+
+
+.content-details h2::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -30px;
+    height: 2px;
+    width: 0;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.content-details h2:hover:before{
+    width: 50px;
+    color:#008ed6
+     
+}
+
+.content-details h2::after{
+    content: "";
+    position: absolute;
+    right: 83% ;
+    bottom: -30px ;
+    height: 2px;
+    width: 0;
+    background:  #008ed6;
+    transition: 0.4s all ease-in-out;
+
+}
+
+.content-details h2:hover::after{
+    width: 50px;
+    color:#008ed6
+}
+
+
+.content-details p{
+
+font-size: 20px;
+
+font-family: Source Sans Pro;
+
+color: #999999;
+
+margin-top: 50px;
+}
+
